@@ -7,14 +7,15 @@ que precisam ser misturados para preenchimento do vasilhame.
 
 programa
 {
-	
+	//poema
 	funcao inicio()
-	{real a, g, C
+	{real a, g, C
 	escreva("Digite a capacidade da garrafa em mililitros: ")
 	leia(C)
 	a = C * 0.7
 	g = C * 0.3
 	escreva("volume de alcool necessário: ", a, " mililitros", "\nvolume de gel necessário: ", g, " mililitros")	
+	escreva("oi")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 621; 
+ * @POSICAO-CURSOR = 631; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

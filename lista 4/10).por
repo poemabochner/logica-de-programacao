@@ -1,17 +1,19 @@
-//1) Desenvolver um algoritmo que efetue a soma de todos os números ímpares que são
-//múltiplos de três e que se encontram no conjunto dos números de 1 até 500.
+//10) Escreva um algoritmo que leia um valor inicial A e imprima a sequência de valores do
+//cálculo de A! e o seu resultado. Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120
 
 programa
 {
 	
-	funcao inicio()
-	{
-		inteiro i, soma=0
-		para(i=3; i<=500; i=i+6){
-			//escreva(i, "\n")
-			soma = soma +i			
+	funcao inicio(){
+
+		inteiro A, i, r=1
+		escreva("Digite um valor: ")
+		leia(A)
+		para(i=A; i>1; i--){
+			r=r*i
+			escreva(i, " x ")
 		}
-		escreva(soma)
+		escreva("1 = ", r)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 207; 
+ * @POSICAO-CURSOR = 328; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

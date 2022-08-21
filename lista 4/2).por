@@ -2,14 +2,28 @@
 //calcular e mostrar:
 //a) A menor altura do grupo.
 //b) A maior altura do grupo.
-
-
 programa
 {
-	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro altura[15]
+		inteiro i=0, maior=0, menor=100
+
+		escreva("Digite a altura das 15 pessoas: \n")
+	
+		para(i; i<=14; i++){
+			leia(altura[i])
+
+			se(maior<altura[i]){
+				maior=altura[i]
+			}
+			
+			se(menor>altura[i]){
+				menor=altura[i]
+			}
+		}
+		escreva("a menor altura é: ", menor, "\n")
+		escreva("a maior altura é: ", maior)	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 138; 
+ * @POSICAO-CURSOR = 302; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
